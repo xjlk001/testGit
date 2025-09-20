@@ -34,6 +34,7 @@ public class TestController {
         String name = user.getName();
         String phone = user.getPhone();
         String email = user.getEmail();
+        System.out.println(user.toString());
         return "test";
     }
 
