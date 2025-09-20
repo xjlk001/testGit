@@ -31,12 +31,10 @@ public class TestController {
      */
     @RequestMapping("/test")
     public String test() {
-        String name = user.getName();
-        String phone = user.getPhone();
-        String email = user.getEmail();
         System.out.println(user.toString());
         System.out.println("主干添加");
         System.out.println("分支添加");
+        System.out.println("master更新");
         System.out.println("在线添加");
         return "test";
     }
