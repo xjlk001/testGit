@@ -35,6 +35,7 @@ public class TestController {
         String phone = user.getPhone();
         String email = user.getEmail();
         System.out.println(user.toString());
+        System.out.println("分支添加");
         return "test";
     }
 
